@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header{
+	background:#38c4f8;
+}
+
+#content{
+
+}
+
+#activitytitle{
+	font-size:large;
+	font-weight:bold;
+}

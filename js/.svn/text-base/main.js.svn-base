@@ -1,0 +1,17 @@
+/*
+ * Buddy Alarm Clock: web app for wake-up messages
+ * Copyright (c) Seekchange
+ */
+
+$(document).bind("mobileinit", function() {
+	console.log("MAIN: Initialized app...");	
+	
+	//setup immediate event handlers
+	$("#setbtn").live("click", setAlarmTime);
+});
+
+function setAlarmTime(){
+	console.log("Setting alarm time: " + $('#alarmtime').val());
+	
+	
+}
